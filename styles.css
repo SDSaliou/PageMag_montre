@@ -1,0 +1,119 @@
+/* styles.css */
+/* Partie en-tête */
+span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: mediumorchid;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* Parties navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Partie Body */
+main {
+    padding: 20px;
+}
+
+.product , .aligne {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.product img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.product p {
+    color: black;
+}
+
+.product button , .aligne button {
+    background-color: mediumorchid;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.product button:hover, .aligne button:hover {
+    background-color: blueviolet;
+}
+.aligne {
+    display: flex;
+    justify-content: center;
+    
+}
+/* Partie footer */
+footer {
+    background: white;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: mediumorchid;
+}
+.bas {
+    list-style-type: none;
+    display: flex;
+}
+.bas a, .bas p {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* Media Queries */
+@media screen and (max-width: 700px) {
+  
+   
+  }
